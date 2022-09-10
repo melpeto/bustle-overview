@@ -3,9 +3,12 @@
 @use '../styles/partials/colors';
 
 .header {
+    background-color: #2E74FB;
     .header__topNav {
         .header__topNavList {
             display: flex;
+            justify-content: center;
+            list-style-type: none;
             li {
                 margin: 1rem;
             }

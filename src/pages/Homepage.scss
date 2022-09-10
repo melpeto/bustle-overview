@@ -3,10 +3,20 @@
 @use '../styles/partials/colors';
 
 .homepage__summary {
+    .homepage__problem {
+        .homepage__researchImg {
+            // max-width: 60%;
+            margin: 2rem 0;
+            img {
+                max-width: 800px;
+            }
+        }
+    }
     .homepage__criteriaParent {
         display: flex;
         justify-content: space-evenly;
         .homepage__criteria {
+            text-align: left;
             width: calc(30% - 0.5rem);
             margin: 0.5rem;
             padding: 1rem;
@@ -18,4 +28,23 @@
             }
         }
     }
+    .homepage__pain-points {
+        background-color: #dcd9d9;
+        padding: 2rem;
+        .homepage__pain-point {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem;
+            p {
+                background-color: white;
+                width: 50%;
+                margin: 0.2rem 1rem;
+
+            }
+        }
+    }
+}
+
+.homepage__pain-point-title p {
+    font: red;
 }
