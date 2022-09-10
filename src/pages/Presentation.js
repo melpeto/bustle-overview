@@ -6,7 +6,7 @@ const Presentation = () => {
         <div className="presentation">
 
             <Header />
-            <p></p>
+            <p>This is a link to our presentation, or an embedded deck?</p>
         </div>
 
     )
