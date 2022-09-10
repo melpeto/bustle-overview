@@ -1,2 +1,15 @@
-@use '../styles/setup';
+@use '../styles/partials/setup';
+@use '../styles/partials/global';
+@use '../styles/partials/colors';
 
+.header {
+    .header__topNav {
+        .header__topNavList {
+            display: flex;
+            li {
+                margin: 1rem;
+            }
+        }
+    }
+
+}

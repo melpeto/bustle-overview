@@ -1,7 +1,6 @@
-#Bustle - Overview
+# Bustle - Overview
 
 HackTO hosted by Hackathons International
-
 
 # Getting Started with Create React App
 
